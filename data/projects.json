@@ -1,0 +1,68 @@
+[
+  {
+    "id": "project-elementor-agency",
+    "category": "elementor",
+    "title": "Seaside Pro Washington Charleston",
+    "desc": "Elementor-based pressure washing service website. Based on a PSD file that was converted into a fully functional WordPress site using Elementor. The site features a clean design and responsive layout.",
+    "tech": ["Elementor", "PSD Conversion", "Mobile Optimization"],
+    "screenshots": ["../img/screencapture-washcharleston-2025-12-07-12_27_27.png"],
+    "image": "../img/screencapture-washcharleston-2025-12-07-12_27_27.png",
+    "live": "https://washcharleston.com/",
+    "badges": ["elementor"]
+  },
+  {
+    "id": "project-woocommerce-store",
+    "category": "woocommerce",
+    "title": "Lighting All Season",
+    "desc": "Lighting All Season is a professional lighting-installation service based in Fort Wayne, IN that specializes in transforming homes and businesses into stunning, festively lit spaces especially for the holidays. They offer a full suite of services including residential and commercial Christmas light installation, permanent year-round lighting, and event or wedding lighting all designed with LED technology for durability and custom aesthetic appeal.",
+    "tech": ["WooCommerce", "PHP", "Integrations"],
+    "screenshots": ["../img/screencapture-lightingallseason-2025-12-07-16_42_21.png"],
+    "image": "../img/screencapture-lightingallseason-2025-12-07-16_42_21.png",
+    "live": "https://lightingallseason.com/",
+    "badges": ["elementor"]
+  },
+  {
+    "id": "project-elementor-agency",
+    "category": "elementor",
+    "title": "Eastcoast Window Cleaning",
+    "desc": "Elementor-based pressure washing service website. Based on a PSD file that was converted into a fully functional WordPress site using Elementor. The site features a clean design and responsive layout.",
+    "tech": ["Elementor", "PSD Conversion", "Mobile Optimization"],
+    "screenshots": ["../img/screencapture-eastcoastwindowcleaning-2025-12-07-17_48_16.png"],
+    "image": "../img/screencapture-eastcoastwindowcleaning-2025-12-07-17_48_16.png",
+    "live": "https://www.eastcoastwindowcleaning.com/",
+    "badges": ["elementor"]
+  },
+  {
+    "id": "project-elementor-onepage",
+    "category": "elementor",
+    "title": "Business One-Page (Elementor)",
+    "desc": "A responsive one-page marketing template built with Elementor. Includes animation and responsive sections.",
+    "tech": ["Elementor", "Accessibility"],
+    "screenshots": ["https://picsum.photos/seed/3/1600/900","https://picsum.photos/seed/13/1600/900"],
+    "image": "https://picsum.photos/seed/3/800/600",
+    "live": "https://example-live-site3.com",
+    "badges": ["elementor"]
+  },
+  {
+    "id": "project-custom-theme",
+    "category": "theme",
+    "title": "Custom Theme Project",
+    "desc": "Custom theme with advanced ACF and Gutenberg blocks.",
+    "tech": ["Custom Theme", "ACF", "Gutenberg"],
+    "screenshots": ["https://picsum.photos/seed/4/1600/900","https://picsum.photos/seed/14/1600/900"],
+    "image": "https://picsum.photos/seed/4/800/600",
+    "live": "https://example-live-site4.com",
+    "badges": ["theme"]
+  },
+  {
+    "id": "project-plugin-integration",
+    "category": "plugin",
+    "title": "Custom Plugin Integration",
+    "desc": "Headless API plugin and custom WP REST endpoints",
+    "tech": ["Plugin","REST API","Headless"],
+    "screenshots": ["https://picsum.photos/seed/5/1600/900","https://picsum.photos/seed/15/1600/900"],
+    "image": "https://picsum.photos/seed/5/800/600",
+    "live": "https://example-live-site5.com",
+    "badges": ["plugin"]
+  }
+]

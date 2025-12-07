@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Full Stack WordPress Developer — Portfolio</title>
+  <meta name="description" content="Full Stack WordPress Developer; Elementor specialist with 8 years of experience — Portfolio.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Body + UI: Inter; Headings: Merriweather; Accent / Brand: Poppins (logo) -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Poppins:wght@400;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container py-md">
+      <a href="#hero" class="logo" aria-label="YourName — Back to top">
+        <span class="logo-mark" aria-hidden="true">YG</span>
+        <span class="logo-text">YourName</span>
+      </a>
+      <nav class="site-nav">
+        <a href="#portfolio">Portfolio</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="header-cta">
+        <a class="btn" href="mailto:galvezoa@gmail.com">Hire me</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-content">
+          <h1>Full Stack <br/>WordPress Developer - Elementor Specialist</h1>
+          <p class="lead">8 years experience building fast, accessible and scalable websites with WordPress, Elementor, and WooCommerce.</p>
+          <p>
+            <a class="btn" href="mailto:galvezoa@gmail.com">Hire me</a>
+          </p>
+        </div>
+        <div class="hero-image" aria-hidden="true">
+          <img src="https://picsum.photos/seed/elementor/900/600" alt="Placeholder visual of a website"/>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about container">
+      <h2>About Me</h2>
+      <p>I'm a Full Stack WordPress developer with eight years of experience designing, building, and maintaining websites using WordPress. My main focus is building sites with Elementor and implementing flexible themes, custom plugins and e-commerce integrations using WooCommerce.</p>
+      <div class="about-bubbles" role="list" aria-label="Core skills">
+        <button class="bubble" data-variant="blue" role="listitem" aria-pressed="false">Elementor (Pro)</button>
+        <button class="bubble" data-variant="coral" role="listitem" aria-pressed="false">WooCommerce</button>
+        <button class="bubble" data-variant="violet" role="listitem" aria-pressed="false">Custom Themes</button>
+        <button class="bubble" data-variant="blue" role="listitem" aria-pressed="false">Performance</button>
+        <button class="bubble" data-variant="green" role="listitem" aria-pressed="false">Accessibility</button>
+        <button class="bubble" data-variant="violet" role="listitem" aria-pressed="false">REST APIs</button>
+        <button class="bubble" data-variant="gold" role="listitem" aria-pressed="false">ACF &amp; Blocks</button>
+        <button class="bubble" data-variant="blue" role="listitem" aria-pressed="false">PHP &amp; JS</button>
+      </div>
+    </section>
+
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+      <h2>Portfolio</h2>
+      <p class="muted">Filter the projects by technology or purpose. Click any card for the live site or open the case study.</p>
+
+      <div class="filter-controls" role="toolbar" aria-label="Filter projects">
+        <button class="filter-btn active" data-filter="*" aria-pressed="true">All</button>
+        <button class="filter-btn" data-filter="elementor" aria-pressed="false">Elementor</button>
+        <button class="filter-btn" data-filter="woocommerce" aria-pressed="false">WooCommerce</button>
+        <button class="filter-btn" data-filter="theme" aria-pressed="false">Custom Theme</button>
+        <button class="filter-btn" data-filter="plugin" aria-pressed="false">Plugin</button>
+      </div>
+
+      <div class="grid" id="portfolioGrid" role="list" aria-live="polite" data-loading="true">
+        <!-- Projects are rendered dynamically from data/projects.json -->
+      </div>
+      <div class="no-results" id="noResults" style="display:none">No projects match this filter. Try another category or <a href="#contact">contact me</a>.
+      </div>
+    </section>
+
+    <section id="contact" class="contact container">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h2>Contact</h2>
+          <p>Interested in working together? Reach out and let's talk about your project. I specialize in Elementor builds, WooCommerce integrations, and custom WordPress development.</p>
+          <p><strong>Email:</strong> <a href="mailto:galvezoa@gmail.com">galvezoa@gmail.com</a></p>
+          <p><strong>Quick options:</strong></p>
+          <p>
+            <a class="btn" href="mailto:galvezoa@gmail.com">Hire me</a>
+          </p>
+          <p class="muted">Or follow me on <a href="#" rel="noopener noreferrer">LinkedIn</a> / <a href="#" rel="noopener noreferrer">GitHub</a>.</p>
+        </div>
+        <div class="contact-form">
+          <form id="contactForm" action="https://formspree.io/f/xnnezeqz" method="POST" accept-charset="UTF-8" aria-describedby="formStatus">
+            <div class="form-row">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="you@example.com" required>
+            </div>
+            <div class="form-row">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="6" placeholder="Tell me about the project..." required></textarea>
+            </div>
+            <div class="form-row form-actions">
+              <button class="btn" type="submit" aria-live="polite" aria-busy="false">
+                <span class="spinner" aria-hidden="true" style="display:none"></span>
+                <span class="btn-label">Request Quote</span>
+              </button>
+            </div>
+            <!-- Honeypots / anti-spam fields (hidden from users but can trap automated bots) -->
+            <input type="text" name="_gotcha" id="_gotcha" class="sr-only" tabindex="-1" autocomplete="off" aria-hidden="true">
+            <!-- Secondary honeypot using a common field name; many bots fill `website` or `url` fields automatically -->
+            <input type="text" name="website" id="website" class="sr-only" tabindex="-1" autocomplete="off" aria-hidden="true">
+            <input type="hidden" name="_subject" value="Portfolio contact form submission">
+            <div id="formStatus" class="form-status" role="status" aria-live="polite" style="display:none;margin-top:8px"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© <span id="year"></span> Aurelio — Full Stack WordPress Developer 
+      <!-- <button id="contrastCheckToggle" class="btn outline" aria-pressed="false" style="margin-left:12px">Contrast Audit</button> -->
+    </div>
+  </footer>
+
+  <!-- Sticky 'Hire me' CTA -->
+  <a href="mailto:galvezoa@gmail.com" class="fab-cta" aria-label="Hire me now">Hire me</a>
+
+  <!-- Modal / Lightbox for Project Details -->
+  <div id="projectModal" class="modal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-backdrop" data-modal-close tabindex="-1"></div>
+    <div class="modal-dialog" role="document" aria-labelledby="modalTitle">
+      <button class="modal-close" aria-label="Close project modal" data-modal-close>✕</button>
+      <div class="modal-grid">
+        <div class="modal-media">
+          <img class="modal-image" src="https://picsum.photos/seed/1/1600/900" alt="Project screenshot"/>
+        </div>
+        <div class="modal-body">
+          <h3 id="modalTitle" class="modal-title">Project title</h3>
+          <p class="modal-desc">Project description details and case study summary.</p>
+          <ul class="modal-tech" aria-hidden="false"></ul>
+          <div class="modal-actions flex-row-btn">
+            <a class="btn modal-live" href="#" target="_blank" rel="noopener">View Live</a>
+            <button class="btn outline modal-zoom" type="button" aria-pressed="false" aria-label="Toggle zoom" style="display:inline-block">Zoom</button>
+            <a class="btn outline modal-full" href="#" target="_blank" rel="noopener noreferrer" style="display:none">Open full image</a>
+            <a class="btn outline" href="mailto:galvezoa@gmail.com">Request Quote</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>
