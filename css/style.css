@@ -106,7 +106,7 @@ h2 {
 .filter-btn.active:hover{background:var(--accent-2)}
 .filter-btn:focus{outline:0;box-shadow:0 6px 18px rgba(15,76,129,0.08)}
 
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:var(--gap)}
+.grid{display:grid;grid-template-columns:repeat(4,minmax(260px,1fr));gap:var(--gap)}
 .card{background:var(--paper);border-radius:12px;overflow:hidden;border:1px solid var(--surface-border);display:flex;flex-direction:column;transition:transform var(--transition) ease,opacity calc(var(--transition) + 40ms) ease;position:relative}
 .card:hover{transform:translateY(-8px);box-shadow:0 22px 48px rgba(11,18,32,0.08)}
 .card-image{max-height:220px;height:auto;overflow:hidden;overflow-x:hidden;border-radius:8px;scrollbar-width:none;-ms-overflow-style:none;position:relative}
